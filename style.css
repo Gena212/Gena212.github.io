@@ -1,0 +1,101 @@
+body{
+    background-color: whitesmoke;
+    max-width: 100vmax;
+    margin: 0 auto;
+    padding: 0 0;
+    clear:both;
+}
+#logo{
+    max-width: 100vmax;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+#maincontainer{
+    background-color: bisque;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+    max-width: auto;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 12px;
+}
+
+#blockone{
+    background-image: url(./images/blockonewhite.png);
+    display: inline-flex;
+    margin-bottom: 50px;  
+    height: 600px; 
+    width:100vmax;
+}
+#blocktwo{
+    background-image: url(./images/blocktwowhite.png);
+    display: inline-flex;
+    margin-bottom: 50px; 
+    height: 600px;
+    width:100vmax;
+}
+#blockthree{
+    background-image: url(./images/blockthreewhite.png);
+    display: inline-flex;
+    margin-bottom: 50px; 
+    height: 600px;
+    width:100vmax;
+}
+#logoimg{
+margin-bottom: -30px;
+}
+
+@media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+        body {display: inline-flex;}
+      }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {display: contents;}
+      }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body {display: contents;}
+      } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body {display: contents;}
+     } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {display: contents;}
+  }
