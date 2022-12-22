@@ -13,6 +13,7 @@ body{
 }
 #maincontainer{
     background-color: bisque;
+    display: -ms-inline-flexbox;
 }
 h1{
     font-size: 70px;
@@ -33,13 +34,31 @@ h5{
 h6{
     font-size: 12px;
 }
-
+button{
+  color: white;
+  background-color: #6AAB4E;
+  width: 200px;
+  border-radius: 20px;
+  height: 50px;
+  font-size: larger;
+}
 #blockone{
-    background-image: url(./images/blockonewhite.png);
-    display: inline-flex;
+    background-color: white;
     margin-bottom: 50px;  
-    height: 600px; 
-    width:100vmax;
+    height: 600px;
+}
+#blockimg{
+  background-image: url(./images/blockonewhite.png);
+  display: inline-flex;
+  margin-bottom: 50px; 
+  height: 600px;
+  width:100vmax;
+}
+#block1txt{
+  margin-left: 50%;
+  margin-top: 100px;
+  text-align: right;
+
 }
 #blocktwo{
     background-image: url(./images/blocktwowhite.png);
@@ -57,6 +76,28 @@ h6{
 }
 #logoimg{
 margin-bottom: -30px;
+}
+#paypageContainer{
+  display: inline-flex;
+}
+#paypagedescription{
+  background-image: url(./images/paypageimage.png);
+  display: inline-flex;
+  height: 600px;
+  width: auto;
+  width:100vmax;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+#paypal-button-container{
+  margin-top: 100px;
+  text-align: right;
+  margin-left: 40px;
+}
+#smart-button-container{
+  margin-top: 100px;
+  text-align: right;
+  margin-left: 40px;
 }
 
 @media (min-width: 600px) {
