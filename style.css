@@ -58,21 +58,40 @@ button{
   margin-left: 50%;
   margin-top: 100px;
   text-align: right;
-
 }
 #blocktwo{
-    background-image: url(./images/blocktwowhite.png);
-    display: inline-flex;
-    margin-bottom: 50px; 
+    background-color: white;
+    margin-bottom: 50px;  
     height: 600px;
-    width:100vmax;
+}
+#blocktwoimg{
+  background-image: url(./images/blocktwowhite.png);
+  display: inline-flex;
+  margin-bottom: 50px; 
+  height: 600px;
+  width:100vmax;
+}
+#block2txt{
+  margin: 15%;
+  margin-top: 50px;
+  text-align: center;
 }
 #blockthree{
-    background-image: url(./images/blockthreewhite.png);
-    display: inline-flex;
-    margin-bottom: 50px; 
-    height: 600px;
-    width:100vmax;
+  background-color: white;
+  margin-bottom: 50px;  
+  height: 600px;
+}
+#block3txt{
+  margin-top: 150px;
+  text-align: right;
+  margin-left: 45%;
+}
+#blockthreeimg{
+  background-image: url(./images/blockthreewhite.png);
+  display: inline-flex;
+  margin-bottom: 50px; 
+  height: 600px;
+  width:100vmax;
 }
 #logoimg{
 margin-bottom: -30px;
