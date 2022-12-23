@@ -6,11 +6,15 @@ body{
     clear:both;
 }
 #logo{
+    background-color: white;
     max-width: 100vmax;
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
 }
+#logoimg{
+  margin-bottom: -30px;
+  }
 #maincontainer{
     background-color: bisque;
     display: -ms-inline-flexbox;
@@ -92,9 +96,6 @@ button{
   margin-bottom: 50px; 
   height: 600px;
   width:100vmax;
-}
-#logoimg{
-margin-bottom: -30px;
 }
 #paypageContainer{
   display: inline-flex;
