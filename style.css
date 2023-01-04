@@ -5,20 +5,6 @@ body{
     padding: 0 0;
     clear:both;
 }
-#logo{
-    background-color: white;
-    max-width: 100vmax;
-    margin: 0 auto;
-    margin-top: 30px;
-    text-align: center;
-}
-#logoimg{
-  margin-bottom: -30px;
-  }
-#maincontainer{
-    background-color: bisque;
-    display: -ms-inline-flexbox;
-}
 h1{
     font-size: 70px;
 }
@@ -38,7 +24,43 @@ h5{
 h6{
     font-size: 12px;
 }
-button{
+#logo{
+  background-color: white;
+  max-width: 100vmax;
+  margin-top: 30px;
+  text-align: center;
+}
+#logoimg{
+margin-bottom: -30px;
+}
+#logoSlogan{
+  padding-bottom: 30px;
+  margin-bottom: 50px; 
+  }
+#maincontainer{
+  background-color: black;
+  display: -ms-inline-flexbox;
+  width:100vmax;
+}
+#blockone{
+    background-color: #fad407;
+    margin-bottom: 50px;  
+    height: 750px;
+}
+#blockimg{
+  background-image: url(./images/blockonecolor.png);
+  background-repeat: no-repeat;
+  display: inline-flex;
+  margin-bottom: 50px; 
+  height: auto;
+  width:100vmax;
+}
+#block1txt{
+  margin-left: 50%;
+  margin-top: 0px;
+  text-align: right;
+}
+#button1{
   color: white;
   background-color: #6AAB4E;
   width: 200px;
@@ -46,56 +68,54 @@ button{
   height: 50px;
   font-size: larger;
 }
-#blockone{
-    background-color: white;
-    margin-bottom: 50px;  
-    height: 600px;
-}
-#blockimg{
-  background-image: url(./images/blockonewhite.png);
-  display: inline-flex;
-  margin-bottom: 50px; 
-  height: 600px;
-  width:100vmax;
-}
-#block1txt{
-  margin-left: 50%;
-  margin-top: 100px;
-  text-align: right;
-}
 #blocktwo{
-    background-color: white;
+    background-color: #6AAB4E;
     margin-bottom: 50px;  
-    height: 600px;
+    height: 750px;
 }
 #blocktwoimg{
-  background-image: url(./images/blocktwowhite.png);
-  display: inline-flex;
-  margin-bottom: 50px; 
-  height: 600px;
+  background-image: url(./images/blocktwocolor.png);
+  background-repeat: no-repeat;
+  display: inline-flex; 
+  height: auto;
   width:100vmax;
 }
 #block2txt{
   margin: 15%;
   margin-top: 50px;
-  text-align: center;
+  text-align: left;
+}
+#button2{
+  color: white;
+  background-color: #fad407;
+  width: 200px;
+  border-radius: 20px;
+  height: 50px;
+  font-size: larger;
 }
 #blockthree{
-  background-color: white;
-  margin-bottom: 50px;  
+  background-color: white; 
   height: 600px;
 }
 #block3txt{
-  margin-top: 150px;
+  margin-top: 100px;
   text-align: right;
   margin-left: 45%;
 }
 #blockthreeimg{
-  background-image: url(./images/blockthreewhite.png);
+  background-image: url(./images/blockthreecolor.png);
   display: inline-flex;
-  margin-bottom: 50px; 
-  height: 600px;
+  background-repeat: no-repeat;
+  height: 650px;
   width:100vmax;
+}
+#button3{
+  color: white;
+  background-color: #6AAB4E;
+  width: 200px;
+  border-radius: 20px;
+  height: 50px;
+  font-size: larger;
 }
 #paypageContainer{
   display: inline-flex;
@@ -119,7 +139,38 @@ button{
   text-align: right;
   margin-left: 40px;
 }
-
+#regForm{
+  background-color: whitesmoke;
+  max-width: 100vmax;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  clear:both;
+  height: 500px;
+  width: 500px;
+  margin-top: 40px;
+}
+#formHeadText{
+  padding-top: 5px;
+  font-size: xx-large;
+  text-align: center;
+}
+#regFormButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+footer{
+  background-color: black;
+  max-width: 100vmax;
+  margin: 0 auto;
+  padding: 0 0;
+  clear:both;
+  font-size: medium;
+  color: white;
+  text-align: center;
+}
 @media (min-width: 600px) {
     .column {
       width: 50%;
