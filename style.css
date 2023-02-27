@@ -1,264 +1,236 @@
 body{
     background-color: whitesmoke;
-    max-width: 100vmax;
+    justify-content: center;
     margin: 0 auto;
     padding: 0 0;
-    clear:both;
-}
-h1{
-    font-size: 70px;
-}
-h2{
-    font-size: 50px;
-}
-h3{
-    font-size: 30px;
 }
 h4{
-    font-size: 25px;
+    font-size: 18px;
     max-width: auto;
 }
 h5{
-    font-size: 20px;
-}
-h6{
-    font-size: 12px;
+    text-align: left;
+    padding: 3%;
+    font-size: 18px;
 }
 mark{
-  background-color: #ffec41;
-  color: rgb(241, 17, 17);
-}
-#logo{
-  background-color: white;
-  max-width: 100vmax;
-  margin-top: 30px;
-  text-align: center;
+    background-color: #ffec41;
+    color: rgb(241, 17, 17);
+  }
+#logoMain{
+    background-color: whitesmoke;
+    max-width: 100vmax;
+    margin-top: 20px;
+    text-align: center;
 }
 #logoimg{
-margin-bottom: -30px;
-}
+    margin-bottom: 5px;
+    text-align: center;
+
+    }
 #logoSlogan{
-  padding-bottom: 30px;
-  margin-bottom: 50px; 
-  }
-#maincontainer{
-  background-color: black;
-  display: -ms-inline-flexbox;
-  width:100vmax;
+    margin-top: -7px;
+    padding-bottom: 3%;
+    }
+#responsive{
+    width: 100%;
+    height: auto;
 }
-#blockone{
-    background-color: #fad407;
-    margin-bottom: 50px;  
-    height: 750px;
-}
-#blockimg{
-  background-image: url(./images/blockonecolor.png);
-  background-repeat: no-repeat;
-  display: inline-flex;
-  margin-bottom: 50px; 
-  height: auto;
-  width:100vmax;
-}
-#block1txt{
-  margin-left: 50%;
-  margin-top: 0px;
-  text-align: right;
+.button{
+    text-align: center;
+    margin-bottom: 2%;
 }
 #button1{
-  color: white;
-  background-color: #6AAB4E;
-  width: 200px;
-  border-radius: 20px;
-  height: 50px;
-  font-size: larger;
-}
-#blocktwo{
+    color: white;
     background-color: #6AAB4E;
-    margin-bottom: 50px;  
-    height: 750px;
+    width: 200px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: larger;
+  }
+  #button2{
+    color: white;
+    background-color: #fad407;
+    width: 200px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: larger;
+  }
+  #button3{
+    color: white;
+    background-color: #6AAB4E;
+    width: 200px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: larger;
+  }
+#registration1{
+    background-color: #FAD407;
+    max-width: 100%;
+    max-height: auto;
+    text-align: center; 
+    margin-top: 2%;
 }
-#blocktwoimg{
-  background-image: url(./images/blocktwocolor.png);
-  background-repeat: no-repeat;
-  display: inline-flex; 
-  height: auto;
-  width:100vmax;
+#registration2{
+    background-color: #6AAB4E;
+    max-width: 100%;
+    max-height: auto;
+    text-align: center;
+    margin-top: 2%;
 }
-#block2txt{
-  margin: 15%;
-  margin-top: 50px;
-  text-align: left;
-}
-#button2{
-  color: white;
-  background-color: #fad407;
-  width: 200px;
-  border-radius: 20px;
-  height: 50px;
-  font-size: larger;
-}
-#blockthree{
-  background-color: white; 
-  height: 600px;
-}
-#block3txt{
-  margin-top: 100px;
-  text-align: right;
-  margin-left: 45%;
-}
-#blockthreeimg{
-  background-image: url(./images/blockthreecolor.png);
-  display: inline-flex;
-  background-repeat: no-repeat;
-  height: 650px;
-  width:100vmax;
-}
-#button3{
-  color: white;
-  background-color: #6AAB4E;
-  width: 200px;
-  border-radius: 20px;
-  height: 50px;
-  font-size: larger;
+#registration3{
+    background-color: #DD7956;
+    max-width: 100%;
+    max-height: auto;
+    text-align: center;
+    margin-top: 2%;
 }
 #paypageContainer{
-  display: inline-flex;
-  width: 100%;
-}
+    display: inline-flex;
+    width: 100%;
+  }
 #paypagedescription{
-  display: inline;
-  height: 650px;
-  width: 30%;
-  margin-right: 0;
-  margin-top: 25px;
-  padding-left: 15%;
-  text-align: center;
-
+    display: block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 25px;
 }
 #paypal-button-container{
-  margin-top: 100px;
-  text-align: center;
-  margin-left: 40px;
+text-align: center;
 }
 #smart-button-container{
-  margin-top: 100px;
-  text-align: right;
-  margin-left: 40px;
+text-align: right;
 }
 #regForm{
-  background-color: whitesmoke;
-  max-width: 100vmax;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  clear:both;
-  height: 500px;
-  width: 500px;
-  margin-top: 40px;
+background-color: whitesmoke;
+max-width: 100vmax;
+margin: 0 auto;
+padding-left: 20px;
+padding-right: 20px;
+clear:both;
+height: 500px;
+width: 500px;
+margin-top: 40px;
 }
 #formHeadText{
-  padding-top: 5px;
-  font-size: xx-large;
-  text-align: center;
+padding-top: 5px;
+font-size: xx-large;
+text-align: center;
 }
 #regFormButton{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%; 
 }
 #signupContainer{
-  
-  justify-content: center;
+justify-content: center;
 }
 #regformContainer{
-  display: inline-flex;
+display: inline-flex;
 }
 #signupForm{
-  padding-top: -100px;
+padding-top: -100px;
 }
 #zcampaignOptinForm{
-  padding-top: -100px;
+padding-top: -100px;
 }
 #customForm{
-  margin-top: -100px;
+margin-top: -100px;
 }
 #sf3zebb363fe3c1efc3d2bc602d3c360c4a586307df6c81da0dcada0c5566cae115d{
-  margin-top: -100px;
+margin-top: -100px;
 }
 #parentSignUp{
-  display: inline;
-  max-width: 100vmax;
-  margin: 0 auto;
-  padding: 0 0;
-  clear:both;  
+display: inline;
+max-width: 100vmax;
+margin: 0 auto;
+padding: 0 0;
+clear:both;  
 }
 #child1HeaderText{
-  max-width: 100%;
-  font-size: 40px;
-  color: #ef7c04;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
+max-width: 100%;
+font-size: 30px;
+color: #ef7c04;
+text-align: center;
+padding-top: 50px;
 }
 #child1Form{
-  max-width: 100vmax;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  padding-top: 150px;
-  padding-right: 250px;
+max-width: 100vmax;
+width: 100px;
+height: 100px;
+margin: 0 auto;
+padding-top: 150px;
+padding-right: 200px;
 }
 #regLogo{
-  padding-left: 50px;
+padding-left: 50px;
 }
 footer{
-  background-color: black;
-  max-width: 100vmax;
-  margin: 0 auto;
-  padding: 0 0;
-  clear:both;
-  font-size: medium;
-  color: white;
-  text-align: center;
+background-color: black;
+max-width: 100vmax;
+margin: 0 auto;
+padding: 0 0;
+clear:both;
+font-size: medium;
+color: white;
+text-align: center;
 }
-@media (min-width: 600px) {
-    .column {
-      width: 50%;
+/* Extra small devices (VW, 320px and down) */
+@media screen and (max-width: 320px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
     }
-  }
-
-  @media (min-width: 600px) {
-    main {
-      flex-wrap: nowrap;
-    }
-
-    div {
-      flex-basis: 33%;
-    }
-  }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-        body {display: inline-flex;}
+        } 
+/* Small devices (VW, 380px and down) */
+@media screen and (max-width: 380px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
       }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    body {display: contents;}
+    }
+/* Medium devices (VW, 414px and down) */
+@media screen and (max-width: 414px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
       }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    body {display: contents;}
-      } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    body {display: contents;}
-     } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    body {display: contents;}
-  }
+    } 
+/* Large devices (VW, 480px and down) */
+@media screen and (max-width: 480px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
+      }
+    } 
+/* Extra large devices (VW, 600px and down) */
+@media screen and (max-width: 600px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
+      }
+}
+/* Extra large devices (VW, 768px and down) */
+@media screen and (max-width: 768px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
+      }
+}
+/* Extra large devices (VW, 800px and down) */
+@media screen and (max-width: 800px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
+      }
+}
+/* Extra large devices (VW, 800px and up) */
+@media screen and (min-width: 800px) {
+    #body{
+      width:100vmax;
+      font-size: 15px;
+      }
+}
