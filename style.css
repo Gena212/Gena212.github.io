@@ -24,6 +24,10 @@ h5{
 h6{
     font-size: 12px;
 }
+mark{
+  background-color: #ffec41;
+  color: rgb(241, 17, 17);
+}
 #logo{
   background-color: white;
   max-width: 100vmax;
